@@ -7,7 +7,7 @@ module.exports = {
     connection: {
       filename: './data/dev.sqlite3'
     },
-    UseNullAsDefault: true,
+    useNullAsDefault: true,
     migrations: {
       directory: './data/migrations'
     },
